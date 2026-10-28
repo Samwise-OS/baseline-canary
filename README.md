@@ -1,4 +1,4 @@
-# repository-template
+# baseline-canary
 
 Public Samwise-OS repository provisioned from canonical engineering standards.
 
