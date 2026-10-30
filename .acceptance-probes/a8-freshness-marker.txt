@@ -1,0 +1,1 @@
+Temporary A8 acceptance marker, updated for stale-check probe. Remove this file in cleanup PR.
