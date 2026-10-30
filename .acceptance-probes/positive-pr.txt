@@ -1,0 +1,1 @@
+Normal PR acceptance fixture passed the canary workflow.
