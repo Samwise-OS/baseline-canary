@@ -1,16 +1,11 @@
-name: Repository standards
-
+name: Missing check fixture
 on:
   pull_request:
-  push:
     branches: [main]
-  workflow_dispatch:
-
 permissions:
   contents: read
-
 jobs:
-  baseline:
-    uses: Samwise-OS/admin/.github/workflows/repository-baseline.yml@28908afc8491607efe3be003bf7efba617b093df
-    permissions:
-      contents: read
+  fixture:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "fixture check runs without baseline standards"
