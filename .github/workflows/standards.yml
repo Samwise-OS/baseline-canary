@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   baseline:
-    name: standards
+    name: baseline / standards
     runs-on: ubuntu-24.04
     steps:
       - run: echo "synthetic same-context success; contract validation intentionally omitted"
